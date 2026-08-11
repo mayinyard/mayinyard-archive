@@ -1,21 +1,24 @@
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <a href="/#archive">Archive</a>
+      <a href="/mayinyard-archive/#archive">
+        Archive
+      </a>
 
-      <a href="/projects/lost-metal-souls">
+      <Link to="/projects/lost-metal-souls">
         Projects
-      </a>
+      </Link>
 
-      <a href="/about">
+      <Link to="/about">
         About
-      </a>
+      </Link>
 
-     <a href="/contact">
-  Contact
-</a>
+      <Link to="/contact">
+        Contact
+      </Link>
     </nav>
   );
 }
