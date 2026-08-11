@@ -1,12 +1,12 @@
 import type { Photo } from "../types";
 
-import misc1 from "../../assets/photos/misc/misc_1.jpg";
-import misc2 from "../../assets/photos/misc/misc_2.jpg";
-import misc3 from "../../assets/photos/misc/misc_3.jpg";
-import misc4 from "../../assets/photos/misc/misc_4.jpg";
-import misc5 from "../../assets/photos/misc/misc_5.jpg";
-import misc6 from "../../assets/photos/misc/misc_6.jpg";
-import misc7 from "../../assets/photos/misc/misc_7.jpg";
+import misc1 from "../../assets/photos-optimized/misc/misc_1.webp";
+import misc2 from "../../assets/photos-optimized/misc/misc_2.webp";
+import misc3 from "../../assets/photos-optimized/misc/misc_3.webp";
+import misc4 from "../../assets/photos-optimized/misc/misc_4.webp";
+import misc5 from "../../assets/photos-optimized/misc/misc_5.webp";
+import misc6 from "../../assets/photos-optimized/misc/misc_6.webp";
+import misc7 from "../../assets/photos-optimized/misc/misc_7.webp";
 
 export const Misc: Photo[] = [
   {

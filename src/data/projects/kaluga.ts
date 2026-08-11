@@ -1,16 +1,16 @@
 import type { Photo } from "../types";
 
-import kaluga_1 from "../../assets/photos/Kaluga/kaluga_1.jpg";
-import kaluga_2 from "../../assets/photos/Kaluga/kaluga_2.jpg";
-import kaluga_3 from "../../assets/photos/Kaluga/kaluga_3.jpg";
-import kaluga_4 from "../../assets/photos/Kaluga/kaluga_4.jpg";
-import kaluga_5 from "../../assets/photos/Kaluga/kaluga_5.jpg";
-import kaluga_6 from "../../assets/photos/Kaluga/kaluga_6.jpg";
-import kaluga_7 from "../../assets/photos/Kaluga/kaluga_7.jpg";
-import kaluga_8 from "../../assets/photos/Kaluga/kaluga_8.jpg";
-import kaluga_9 from "../../assets/photos/Kaluga/kaluga_9.jpg";
-import kaluga_10 from "../../assets/photos/Kaluga/kaluga_10.jpg";
-import kaluga_11 from "../../assets/photos/Kaluga/kaluga_11.jpg";
+import kaluga_1 from "../../assets/photos-optimized/Kaluga/kaluga_1.webp";
+import kaluga_2 from "../../assets/photos-optimized/Kaluga/kaluga_2.webp";
+import kaluga_3 from "../../assets/photos-optimized/Kaluga/kaluga_3.webp";
+import kaluga_4 from "../../assets/photos-optimized/Kaluga/kaluga_4.webp";
+import kaluga_5 from "../../assets/photos-optimized/Kaluga/kaluga_5.webp";
+import kaluga_6 from "../../assets/photos-optimized/Kaluga/kaluga_6.webp";
+import kaluga_7 from "../../assets/photos-optimized/Kaluga/kaluga_7.webp";
+import kaluga_8 from "../../assets/photos-optimized/Kaluga/kaluga_8.webp";
+import kaluga_9 from "../../assets/photos-optimized/Kaluga/kaluga_9.webp";
+import kaluga_10 from "../../assets/photos-optimized/Kaluga/kaluga_10.webp";
+import kaluga_11 from "../../assets/photos-optimized/Kaluga/kaluga_11.webp";
 // ...
 
 export const Kaluga: Photo[] = [

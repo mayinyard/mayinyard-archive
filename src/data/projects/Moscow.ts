@@ -1,9 +1,9 @@
 import type { Photo } from "../types";
 
-import Moscow_1 from "../../assets/photos/Moscow/Moscow_1.jpg";
-import Moscow_2 from "../../assets/photos/Moscow/Moscow_2.jpg";
-import Moscow_3 from "../../assets/photos/Moscow/Moscow_3.jpg";
-import Moscow_4 from "../../assets/photos/Moscow/Moscow_4.jpg";
+import Moscow_1 from "../../assets/photos-optimized/Moscow/Moscow_1.webp";
+import Moscow_2 from "../../assets/photos-optimized/Moscow/Moscow_2.webp";
+import Moscow_3 from "../../assets/photos-optimized/Moscow/Moscow_3.webp";
+import Moscow_4 from "../../assets/photos-optimized/Moscow/Moscow_4.webp";
 
 
 export const Moscow: Photo[] = [

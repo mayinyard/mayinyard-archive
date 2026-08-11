@@ -1,10 +1,10 @@
 import type { Photo } from "../types";
 
-import spb_5 from "../../assets/photos/Saint-Petersburg-2/spb_5.jpg";
-import spb_6 from "../../assets/photos/Saint-Petersburg-2/spb_6.jpg";
-import spb_7 from "../../assets/photos/Saint-Petersburg-2/spb_7.jpg";
-import spb_8 from "../../assets/photos/Saint-Petersburg-2/spb_8.jpg";
-import spb_9 from "../../assets/photos/Saint-Petersburg-2/spb_9.jpg";
+import spb_5 from "../../assets/photos-optimized/Saint-Petersburg-2/spb_5.webp";
+import spb_6 from "../../assets/photos-optimized/Saint-Petersburg-2/spb_6.webp";
+import spb_7 from "../../assets/photos-optimized/Saint-Petersburg-2/spb_7.webp";
+import spb_8 from "../../assets/photos-optimized/Saint-Petersburg-2/spb_8.webp";
+import spb_9 from "../../assets/photos-optimized/Saint-Petersburg-2/spb_9.webp";
 
 
 

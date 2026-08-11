@@ -1,12 +1,12 @@
 import type { Photo } from "../types";
 
-import cats1 from "../../assets/photos/cats/cats_1.jpg";
-import cats2 from "../../assets/photos/cats/cats_2.jpg";
-import cats3 from "../../assets/photos/cats/cats_3.jpg";
-import cats4 from "../../assets/photos/cats/cats_4.jpg";
-import cats5 from "../../assets/photos/cats/cats_5.jpg";
-import cats6 from "../../assets/photos/cats/cats_6.jpg";
-import cats7 from "../../assets/photos/cats/cats_7.jpg";
+import cats1 from "../../assets/photos-optimized/cats/cats_1.webp";
+import cats2 from "../../assets/photos-optimized/cats/cats_2.webp";
+import cats3 from "../../assets/photos-optimized/cats/cats_3.webp";
+import cats4 from "../../assets/photos-optimized/cats/cats_4.webp";
+import cats5 from "../../assets/photos-optimized/cats/cats_5.webp";
+import cats6 from "../../assets/photos-optimized/cats/cats_6.webp";
+import cats7 from "../../assets/photos-optimized/cats/cats_7.webp";
 
 export const Cats: Photo[] = [
   {

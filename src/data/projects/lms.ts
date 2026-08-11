@@ -1,11 +1,11 @@
 import type { Photo } from "../types";
 
-import lms1 from "../../assets/photos/LMS/lms_1.jpg";
-import lms2 from "../../assets/photos/LMS/lms_2.jpg";
-import lms3 from "../../assets/photos/LMS/lms_3.jpg";
-import lms4 from "../../assets/photos/LMS/lms_4.jpg";
-import lms5 from "../../assets/photos/LMS/lms_5.jpg";
-import lms6 from "../../assets/photos/LMS/lms_6.jpg";
+import lms1 from "../../assets/photos-optimized/LMS/lms_1.webp";
+import lms2 from "../../assets/photos-optimized/LMS/lms_2.webp";
+import lms3 from "../../assets/photos-optimized/LMS/lms_3.webp";
+import lms4 from "../../assets/photos-optimized/LMS/lms_4.webp";
+import lms5 from "../../assets/photos-optimized/LMS/lms_5.webp";
+import lms6 from "../../assets/photos-optimized/LMS/lms_6.webp";
 
 export const LMS: Photo[]  = [
   {

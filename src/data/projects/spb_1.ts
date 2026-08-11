@@ -1,9 +1,9 @@
 import type { Photo } from "../types";
 
-import spb_1 from "../../assets/photos/Saint-Petersburg_1/spb_1.jpg";
-import spb_2 from "../../assets/photos/Saint-Petersburg_1/spb_2.jpg";
-import spb_3 from "../../assets/photos/Saint-Petersburg_1/spb_3.jpg";
-import spb_4 from "../../assets/photos/Saint-Petersburg_1/spb_4.jpg";
+import spb_1 from "../../assets/photos-optimized/Saint-Petersburg_1/spb_1.webp";
+import spb_2 from "../../assets/photos-optimized/Saint-Petersburg_1/spb_2.webp";
+import spb_3 from "../../assets/photos-optimized/Saint-Petersburg_1/spb_3.webp";
+import spb_4 from "../../assets/photos-optimized/Saint-Petersburg_1/spb_4.webp";
 
 
 export const Spb_1: Photo[] = [
