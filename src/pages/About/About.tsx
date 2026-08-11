@@ -42,9 +42,9 @@ function About() {
 
           <div className="about-photo">
             <img
-  src={aboutPhoto}
-  alt="Portrait"
-/>
+              src={aboutPhoto}
+              alt="Portrait"
+            />
           </div>
 
         </div>

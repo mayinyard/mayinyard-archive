@@ -1,59 +1,114 @@
 .archive {
-    padding: 140px 80px;
+  padding: 140px 80px;
 }
 
 .archive-header {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .archive-header h2 {
-    font-size: 2.6rem;
-    font-weight: 300;
-    margin-bottom: 18px;
+  font-size: 2.6rem;
+  font-weight: 300;
+  margin-bottom: 18px;
 }
 
 .archive-header p {
-    color: var(--color-text-secondary);
-    max-width: 420px;
-    line-height: 1.8;
+  color: var(--color-text-secondary);
+  max-width: 420px;
+  line-height: 1.8;
 }
 
 .archive-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
 }
 
 .archive-card {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .archive-card img {
-    width: 100%;
-    height: 320px;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
 
-    object-fit: cover;
+  margin-bottom: 14px;
 
-    margin-bottom: 14px;
-
-    transition: transform .45s ease,
-                opacity .45s ease;
+  transition:
+    transform 0.45s ease,
+    opacity 0.45s ease;
 }
 
 .archive-card:hover img {
-    transform: scale(1.015);
-    opacity: .92;
+  transform: scale(1.015);
+  opacity: 0.92;
 }
 
 .archive-card h3 {
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 
-    font-size: 1.1rem;
-    font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .archive-card span {
-    color: var(--color-text-secondary);
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
 
-    font-size: .9rem;
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media screen and (max-width: 768px) {
+
+  .archive {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 70px 20px 60px;
+  }
+
+  .archive-header {
+    margin-bottom: 38px;
+  }
+
+  .archive-header h2 {
+    font-size: 2rem;
+    line-height: 1.15;
+    margin-bottom: 14px;
+  }
+
+  .archive-header p {
+    max-width: 320px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .archive-grid {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+
+  .archive-card {
+    width: 100%;
+  }
+
+.archive-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+  .archive-card h3 {
+    font-size: 1rem;
+    margin-bottom: 4px;
+  }
+
+  .archive-card span {
+    font-size: 0.8rem;
+  }
+
 }

@@ -26,3 +26,19 @@
 .navbar a:hover {
     color: #ffffff;
 }
+
+@media screen and (max-width: 768px) {
+
+  .navbar {
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 45px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .navbar a {
+    font-size: 0.85rem;
+  }
+
+}

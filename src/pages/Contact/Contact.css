@@ -63,3 +63,43 @@
 .contact-links a:hover {
     color: var(--color-text-secondary);
 }
+
+@media (max-width: 800px) {
+  .contact-content {
+    width: auto;
+    margin: 0 40px;
+    padding-top: 100px;
+  }
+
+  .contact-content h1 {
+    margin-bottom: 35px;
+  }
+
+  .contact-intro {
+    line-height: 1.75;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-content {
+    width: auto;
+    margin: 0 24px;
+    padding-top: 70px;
+  }
+
+  .contact-content h1 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+  }
+
+  .contact-intro {
+    margin-bottom: 40px;
+    font-size: 0.95rem;
+    line-height: 1.75;
+  }
+
+  .contact-links {
+    gap: 20px;
+    padding-top: 25px;
+  }
+}
