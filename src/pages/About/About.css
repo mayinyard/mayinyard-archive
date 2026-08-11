@@ -47,7 +47,6 @@
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover;
 }
 
 .about-meta {
@@ -65,45 +64,10 @@
 
 /* Tablet */
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .about-page {
-    padding: 60px 24px 80px;
+    padding: 40px 40px 100px;
   }
-
-  .about-page .navbar {
-    margin-bottom: 55px;
-    padding: 0;
-  }
-
-  .about-content {
-    width: 100%;
-  }
-
-  .about-content h1 {
-    margin-bottom: 40px;
-    font-size: 3rem;
-  }
-
-  .about-intro {
-    gap: 40px;
-  }
-
-  .about-text p {
-    font-size: 0.95rem;
-    line-height: 1.75;
-    margin-bottom: 22px;
-  }
-
-  .about-photo {
-    width: min(220px, 100%);
-    margin-top: 5px;
-  }
-
-  .about-meta {
-    margin-top: 40px;
-    padding-top: 22px;
-  }
-}
 
   .about-page .navbar {
     margin-bottom: 70px;
@@ -111,7 +75,6 @@
 
   .about-content {
     width: 100%;
-    margin: 0;
   }
 
   .about-intro {
@@ -129,7 +92,7 @@
 
 @media (max-width: 600px) {
   .about-page {
-    padding: 30px 24px 80px;
+    padding: 60px 24px 80px;
   }
 
   .about-page .navbar {
