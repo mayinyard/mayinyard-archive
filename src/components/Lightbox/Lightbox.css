@@ -38,3 +38,44 @@
 .lightbox-info p {
   color: #8d8d8d;
 }
+
+.lightbox-arrow {
+
+  position: fixed;
+
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  background: transparent;
+
+  border: none;
+
+  color: white;
+
+  font-size: 48px;
+
+  cursor: pointer;
+
+  padding: 20px;
+
+  transition: .3s;
+}
+
+.lightbox-arrow:hover{
+
+    opacity:.6;
+
+}
+
+.left{
+
+left:40px;
+
+}
+
+.right{
+
+right:40px;
+
+}

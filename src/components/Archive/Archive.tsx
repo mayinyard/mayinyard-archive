@@ -1,43 +1,75 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import ArchiveCard from "./ArchiveCard";
 import Lightbox from "../Lightbox/Lightbox";
 
-import { archive } from "../../data/archive";
+import { allPhotos } from "../../data/photos";
 
-type ArchivePhoto = {
-  id: number;
-  image: string;
-  title: string;
-  location: string;
-  year: number;
-};
+import {
+  initializeQueue,
+  getNextPhoto,
+} from "../../data/photoQueue";
+
 
 function Archive() {
-  const [selectedPhoto, setSelectedPhoto] =
-    useState<ArchivePhoto | null>(null);
+  const [selectedIndex, setSelectedIndex] =
+    useState<number | null>(null);
+
+const [photos, setPhotos] = useState(() => {
+  const shuffled = [...allPhotos].sort(
+    () => Math.random() - 0.5
+  );
+
+  return shuffled.slice(0, 18);
+});
+
+useEffect(() => {
+  initializeQueue(photos);
+}, []);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      if (selectedIndex !== null) return;
+
+      setPhotos((current) => {
+        const updated = [...current];
+
+        const randomCard = Math.floor(
+          Math.random() * updated.length
+        );
+
+        updated[randomCard] = getNextPhoto(updated);
+
+        return updated;
+      });
+    }, 10000);
+
+    return () => clearInterval(timer);
+  }, [selectedIndex]);
 
   return (
     <section id="archive" className="archive">
       <div className="archive-header">
         <h2>Archive</h2>
 
-        <p>A personal archive of ordinary moments.</p>
+        <p>Photographs change automatically — stay a while and see what appears.</p>
       </div>
 
       <div className="archive-grid">
-        {archive.map((photo) => (
+        {photos.map((photo, index) => (
           <ArchiveCard
             key={photo.id}
             photo={photo}
-            onClick={() => setSelectedPhoto(photo)}
+            onClick={() => setSelectedIndex(index)}
           />
         ))}
       </div>
 
       <Lightbox
-        photo={selectedPhoto}
-        onClose={() => setSelectedPhoto(null)}
+        photos={photos}
+        currentIndex={selectedIndex}
+        setCurrentIndex={setSelectedIndex}
+        onClose={() => setSelectedIndex(null)}
       />
     </section>
   );

@@ -4,7 +4,8 @@ function HeroText() {
       <h2>A personal archive of ordinary moments</h2>
 
       <p>
-        Exploring forgotten moments hidden in everyday life.
+        A selection of photographs from 2025 — moments, places, and details
+        found in everyday life.
       </p>
     </div>
   );

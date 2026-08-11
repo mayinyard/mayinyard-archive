@@ -1,13 +1,7 @@
-type ArchivePhoto = {
-  id: number;
-  image: string;
-  title: string;
-  location: string;
-  year: number;
-};
+import type { Photo } from "../../data/types";
 
 type Props = {
-  photo: ArchivePhoto;
+  photo: Photo;
   onClick: () => void;
 };
 
@@ -22,11 +16,9 @@ function ArchiveCard({ photo, onClick }: Props) {
         alt={photo.title}
       />
 
-      <h3>{photo.title}</h3>
+<h3>{photo.title}</h3>
 
-      <p>
-        {photo.location} · {photo.year}
-      </p>
+<span>{photo.location}</span>
     </article>
   );
 }

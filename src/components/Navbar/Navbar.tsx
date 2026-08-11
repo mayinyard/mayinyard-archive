@@ -1,10 +1,21 @@
+import "./Navbar.css";
+
 function Navbar() {
   return (
     <nav className="navbar">
-      <a href="#">Archive</a>
-      <a href="#">Projects</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <a href="/#archive">Archive</a>
+
+      <a href="/projects/lost-metal-souls">
+        Projects
+      </a>
+
+      <a href="/about">
+        About
+      </a>
+
+     <a href="/contact">
+  Contact
+</a>
     </nav>
   );
 }
